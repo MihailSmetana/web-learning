@@ -3,20 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Мій перший сайт</title>
-    <style>
-  body {
-    background-color: #8ce981;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
-  }
-
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-</style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Мій перший міні-проєкт 💪</h1>
@@ -28,24 +15,6 @@
 <button id="motivationBtn">
   Заберай мотивацію
 </button>
-<script>
-  const quotes = [
-    "Ти вже робиш більше, ніж вчора 💪",
-    "Кожен рядок коду — це крок вперед 🚀",
-    "Помилки — це частина навчання",
-    "Ти реально зможеш увійти в IT",
-    "Сьогодні — код, завтра — робота",
-    "Ти гарно починаєш, продовжуй так само",
-    "Радій ві дуспіху, Люблю дивитись на посмішку"
-  ];
-
-  const button = document.getElementById("motivationBtn");
-  const text = document.getElementById("quote");
-
-  button.addEventListener("click", function () {
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    text.textContent = quotes[randomIndex];
-  });
-</script>
+<script src="script.js"></script>
   </body>
 </html>
